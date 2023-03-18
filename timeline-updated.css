@@ -48,7 +48,6 @@
 background: #000;
 background: #000;
 }
-
-.tl-timemarker.tl-timemarker-active .tl-timemarker-content-container {
-    height: auto !important;
+.tl-timemarker .tl-timemarker-content-container{
+	height: auto !important;
 }
