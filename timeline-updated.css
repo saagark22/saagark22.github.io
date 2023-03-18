@@ -4,18 +4,15 @@
 }
 
 @font-face {
-  font-family: helvetica-neue;
-  src: url(https://saagark22.github.io/helvetica-neue-medium.otf);
+  font-family: helvetica;
+  src: url(https://saagark22.github.io/helvetica.ttf);
 }
-
-
 
 .tl-timeline .tl-headline-date, .tl-timeline h3.tl-headline-date {
 	    font-size: 15px;
     line-height: 15px;
     font-style: normal !important;
     color: #333;
-    font-family: helvetica-neue !important;
 }
 
 .tl-slidenav-previous .tl-slidenav-title, .tl-slidenav-next .tl-slidenav-title {
