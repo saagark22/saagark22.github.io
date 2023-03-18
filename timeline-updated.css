@@ -35,7 +35,7 @@
     width: 45%;
 }
 
-.tl-headline {
+.tl-slider-container-mask .tl-headline {
 	 font-family: century-gothic !important;
     color: #85754E !important;
     text-transform: capitalize !important;
@@ -70,7 +70,7 @@ background: #000;
 }
 
 .tl-timeline p, .tl-timeline .tl-headline-date, .tl-timeline h3.tl-headline-date {
-font-family: helvetica;
+font-family: helvetica !important;
 }
 
 .tl-timeline p {
