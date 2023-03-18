@@ -69,8 +69,11 @@ background: #000;
     box-shadow: none;
 }
 
+.tl-timeline p, .tl-timeline .tl-headline-date, .tl-timeline h3.tl-headline-date {
+font-family: helvetica;
+}
+
 .tl-timeline p {
-    font-family: helvetica-neue;
     font-size: 15px;
     color: #333;
 }
