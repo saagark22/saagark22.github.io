@@ -1,3 +1,50 @@
-.tl-headline{
-     color: blue !important;
- }
+@font-face {
+  font-family: raisonne-demibold-pro;
+  src: url(https://saagark22.github.io/raisonne-demibold-pro.ttf);
+}
+
+@font-face {
+  font-family: helvetica-neue-medium;
+  src: url(https://saagark22.github.io/helvetica-neue-medium.otf);
+}
+
+.tl-timeline .tl-headline-date, .tl-timeline h3.tl-headline-date {
+	 font-family: helvetica-neue-medium;
+    font-size: 15px;
+    line-height: 15px;
+    color: #000;
+}
+
+.tl-slidenav-previous .tl-slidenav-title, .tl-slidenav-next .tl-slidenav-title {
+    opacity: 1;
+    font-size: 13px;
+    line-height: 11px;
+    color: #555;
+}
+
+.tl-slidenav-previous .tl-slidenav-title:hover, .tl-slidenav-next .tl-slidenav-title:hover {
+    color: #111;
+}
+
+.tl-media-content-container{
+	    max-width: 85%;
+    margin: 0 auto;
+}
+
+.tl-slide .tl-slide-content-container .tl-slide-content .tl-text {
+    width: 45%;
+}
+
+.tl-headline {
+	font-family: raisonne-demibold-pro;
+    color: #85754E !important;
+}
+.tl-timenav {
+    width: 100%;
+    background-color: #85754E;
+}
+
+.tl-timeaxis-background { 
+background: #000;
+background: #000;
+}
