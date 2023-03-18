@@ -1,18 +1,21 @@
 @font-face {
-  font-family: raisonne-demibold-pro;
-  src: url(https://saagark22.github.io/raisonne-demibold-pro.ttf);
+  font-family: century-gothic;
+  src: url(https://saagark22.github.io/century-gothic.ttf);
 }
 
 @font-face {
-  font-family: helvetica-neue-medium;
+  font-family: helvetica-neue;
   src: url(https://saagark22.github.io/helvetica-neue-medium.otf);
 }
 
+
+
 .tl-timeline .tl-headline-date, .tl-timeline h3.tl-headline-date {
-	 font-family: helvetica-neue-medium;
-    font-size: 15px;
+	    font-size: 15px;
     line-height: 15px;
-    color: #000;
+    font-style: normal !important;
+    color: #333;
+    font-family: helvetica-neue !important;
 }
 
 .tl-slidenav-previous .tl-slidenav-title, .tl-slidenav-next .tl-slidenav-title {
@@ -36,8 +39,11 @@
 }
 
 .tl-headline {
-	font-family: raisonne-demibold-pro;
+	 font-family: century-gothic !important;
     color: #85754E !important;
+    text-transform: capitalize !important;
+    font-size: 28px !important;
+    line-height: 30px !important;
 }
 .tl-timenav {
     width: 100%;
@@ -48,6 +54,26 @@
 background: #000;
 background: #000;
 }
-.tl-timemarker .tl-timemarker-content-container{
-	height: auto !important;
+
+.tl-timemarker.tl-timemarker-active .tl-timemarker-content-container, .tl-timemarker .tl-timemarker-content-container {
+    height: auto !important;
+}
+
+.tl-timemarker.tl-timemarker-active .tl-timemarker-content-container .tl-timemarker-content .tl-timemarker-text h2.tl-headline {
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 11px;
+    color: #999 !important;
+}
+
+.tl-timemarker:hover .tl-timemarker-content-container, .tl-timemarker:focus .tl-timemarker-content-container {
+    background-color: #fff;
+    border-color: #a6a6a6;
+    box-shadow: none;
+}
+
+.tl-timeline p {
+    font-family: helvetica-neue;
+    font-size: 15px;
+    color: #333;
 }
