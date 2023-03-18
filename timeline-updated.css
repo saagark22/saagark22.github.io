@@ -8,6 +8,18 @@
   src: url(https://saagark22.github.io/helvetica.ttf);
 }
 
+@font-face{
+	font-family: 'Droid Sans';
+	src: url(https://saagark22.github.io/DroidSans.ttf);
+}
+
+.tl-timemarker .tl-timemarker-content-container .tl-timemarker-content .tl-timemarker-text h2.tl-headline, .tl-timemarker .tl-timemarker-content-container .tl-timemarker-content .tl-timemarker-text h2.tl-headline p {
+    color: #999 !important;
+    font-weight: 800 !important;
+    font-size: 11px !important;
+    font-family: 'Droid Sans'!important;
+}
+
 .tl-timeline .tl-headline-date, .tl-timeline h3.tl-headline-date {
 	    font-size: 15px;
     line-height: 15px;
@@ -63,6 +75,7 @@ background: #000;
 }
 
 .tl-timemarker:hover .tl-timemarker-content-container, .tl-timemarker:focus .tl-timemarker-content-container {
+	color: #000;
     background-color: #fff;
     border-color: #a6a6a6;
     box-shadow: none;
