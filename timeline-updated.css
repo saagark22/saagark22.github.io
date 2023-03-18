@@ -90,6 +90,11 @@ font-family: helvetica !important;
     color: #333;
 }
 
-.tl-timemarker:hover .tl-headline{
+.tl-timemarker:hover .tl-timemarker-content-container .tl-timemarker-content .tl-timemarker-text h2.tl-headline{
 	color: #000 !important;
+}
+
+.tl-timemarker.tl-timemarker-active .tl-timemarker-line-left, .tl-timemarker.tl-timemarker-active .tl-timemarker-line-right {
+    border-color: #000;
+    border-width: 2px;
 }
